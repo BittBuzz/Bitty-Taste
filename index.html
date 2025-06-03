@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bitty Taste</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Fredoka One', cursive;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #ffbb33;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+    nav {
+      background: #ff8800;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #e65100;
+    }
+    .menu-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    .menu-item {
+      background: #ffe0b2;
+      padding: 10px;
+      border-radius: 12px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea, select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-family: inherit;
+    }
+    button {
+      background-color: #ff8800;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffcc80;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ChatGPT Image May 26, 2025 at 11_04_48 PM.png" alt="Bitty Taste Logo" />
+    <h1>Bitty Taste</h1>
+    <p>Krokant van buiten, en vol smaak van binnen</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#bestellen">Bestellen</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="menu">
+    <h2>Menu</h2>
+    <div class="menu-list">
+      <div class="menu-item">Classic groenten met kip Spring roll – €0,75</div>
+      <div class="menu-item">Veganistische Spring Roll – €0,75</div>
+      <div class="menu-item">Mie hoen Spring roll – €0,75</div>
+      <div class="menu-item">Vlammen Spring roll – €0,75</div>
+      <div class="menu-item">Chicken barbecue Spring roll – €0,75</div>
+      <div class="menu-item">Barbecue pork Spring roll – €0,75</div>
+      <div class="menu-item">Basic pakket – €4,50<br><small>5 rolls (1 per smaak) + 1 sausje</small></div>
+      <div class="menu-item">Deluxe pakket – €6,50<br><small>6 mix rolls + 2 dipsausjes + 1 drank</small></div>
+    </div>
+  </section>
+
+  <section id="bestellen">
+    <h2>Bestellen</h2>
+    <form>
+      <label>Naam:<br><input type="text" required /></label>
+      <label>Email:<br><input type="email" required /></label>
+      <label>Bestelling:<br><textarea rows="4" required></textarea></label>
+      <label>Bezorgadres:<br><input type="text" required /></label>
+      <button type="submit">Verstuur bestelling</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label>Naam:<br><input type="text" required /></label>
+      <label>Email:<br><input type="email" required /></label>
+      <label>Bericht:<br><textarea rows="4" required></textarea></label>
+      <button type="submit">Verstuur bericht</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Bitty Taste – Alle rechten voorbehouden
+  </footer>
+</body>
+</html>
